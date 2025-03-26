@@ -1,4 +1,5 @@
-import { api } from "./configs";
+import { api } from "./constants";
+
 
 const url = (window.location.host.indexOf("localhost") !== -1)  ? api.UAT_API_URL: api.API_URL;
 
